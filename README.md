@@ -1,5 +1,4 @@
-### Detalhes importantes:
-- Este pequeno projeto utiiza-se de um Array fixo para simular um banco de dados.
-- Tal atividade teve como objetivo a prática do conceito de ponteiros abordados no primeiro período de faculdade.
-- O recurso de **ponteiro de funções** foi utilizado para evitar repetição de códigos,
-  sendo um meio de validar e bloquear funcionalidades que só poderia ser realizada com o usuário logado.
+### Detalhes importantes | Important details:
+- Este pequeno projeto utiliza um array fixo para simular um banco de dados, dispensando o uso de alocação dinâmica ou sistemas externos de persistência. | This small project uses a fixed array to simulate a database, avoiding the need for dynamic memory allocation or external persistence systems.
+- A atividade teve como objetivo a prática do conceito de ponteiros abordado no primeiro período da faculdade, consolidando o entendimento sobre endereçamento de memória e manipulação direta de dados em C. | The activity aimed to practice the concept of pointers covered in the first semester of college, reinforcing the understanding of memory addressing and direct data manipulation in C.
+- O recurso de **ponteiro de funções** foi utilizado para evitar repetição de código, permitindo que uma única função de validação centralizasse o controle de acesso, bloqueando funcionalidades que só poderiam ser executadas por um usuário autenticado. | **Function pointers** were used to avoid code repetition, allowing a single validation function to centralize access control and block features that could only be executed by an authenticated user.
